@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Creating Web Pages with CSS3 Formatting in HTML5</title>
+  <style>
+    h1 {
+      color:#ff6a00;
+      font-family: Calibri;
+      font-weight: bold;
+      font-size: 40pt;
+    }
+  p {
+    font-family: 'Courier New'
+  }
+  .regpara {
+    font-family: Arial;
+  }
+  </style>
+</head>
+<body>
+  <h1>Heading</h1>
+  <p>Lorem is a not a normal language</p>
+    <p class="regpara">Lorem ipsum dolor sit amet.</p>
+    <p class="italpara"> montes</p>
+    <p class="boldpara">Lorem ipsum dolor sit amet.</p>
+    <span id="output">This is a span</span>
+    <div id="div1">This is div1</div>
+</body>
+</html>
