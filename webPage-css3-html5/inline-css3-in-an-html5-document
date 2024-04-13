@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Using Inline CSS Style in an HTLM5 Document</title>
+
+  </head>
+  <body>
+<!-- /* This is the 3d way to create HTML in line  In css let you change attributes this is the way you should start inline document
+            you will change the inline
+            the size of the text
+            and
+            the color of the text
+        1 first we create the <p>tag and then apply the style in that (<p>) tag
+        2 CSS really shine when you create a global CSS STYLES and they
+          are a couple different ways to doing that:
+          The first doing it is to put it inside of your HTML- document
+          the second is to create external stylesheet that the HTML document refers to*/ -->
+
+  <p style="font-family: Arial; font-size: 20px; text-align: center; color:#f00;"> THIS  IS in LINE STYLE CSS AND HTML Style
+    this attribute will create a div container, so efectevly CSS will change
+    the attribute's anything in html
+    and it is very crapy what ever
+
+    <!--/* THIS  IS in LINE STYLE CSS AND HTML Style
+      this attribute will create a div container, so efectevly CSS will change
+      the attribute's anything in html*/-->
+  </p>
+    <div style="width: 200px; height: 200px; background-color: #808080;"></div>
+
+  </body>
+</html>
+Modify CSS and HTML element's

@@ -11,10 +11,27 @@
       font-size: 40pt;
     }
   p {
-    font-family: 'Courier New'
+    font-family: 'Courier New'  /*it change in bolt the paragraph <p> this is not a class */
+
   }
   .regpara {
     font-family: Arial;
+  }
+  .italpara {
+    font-style: italic; /*it change the text style This is a <p class</p>*/
+  }
+  span {
+    font-size: 30pt; /*this will change all span*/
+  }
+  /*this is the div container*/
+  /* instead the change all div we have an (id div)and we change with #div1  (id is uniq one per page)
+  this is a block element si we can add with and ... */
+  #div1 {
+    width: 100px;
+    height: 200px;
+    background-color: rgb(0, 4, 255);/*when use to background is gone change that background color of that blok element,
+    if you don't put the semi-colon (;) background-color will not change */
+    color:rgb(220, 83, 20) /*when use the color for attribute (div1) is going to change the font color*/
   }
   </style>
 </head>
@@ -22,7 +39,7 @@
   <h1>Heading</h1>
   <p>Lorem is a not a normal language</p>
     <p class="regpara">Lorem ipsum dolor sit amet.</p>
-    <p class="italpara"> montes</p>
+    <p class="italpara"> montes nascetur rudiculus us</p>
     <p class="boldpara">Lorem ipsum dolor sit amet.</p>
     <span id="output">This is a span</span>
     <div id="div1">This is div1</div>
